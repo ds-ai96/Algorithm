@@ -2,7 +2,7 @@
 BAEKJOON ALGORITHM
 Date : 2022-01-27
 Start Time : 14:17
-End Time : 
+End Time : 14:32
 File Name : 11052 카드 구매하기 (S1)
 URL : https://www.acmicpc.net/problem/11052
 Category : Dynamic Programming
