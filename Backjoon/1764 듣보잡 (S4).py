@@ -2,7 +2,7 @@
 BAEKJOON ALGORITHM
 Date : 2022-03-11
 Start Time : 16:16
-End Time : 
+End Time : 16:40
 File Name : 1764 듣보잡 (S3)
 URL : https://www.acmicpc.net/problem/1764
 Category : Sorting
@@ -24,7 +24,9 @@ for _ in range(N): # 듣도 못한 사람 이름 입력
 for _ in range(M): # 보도 못한 사람 이름 입력
     name_list2.add(input().rstrip())
 
-result = sorted(list(name_list1 & name_list2))
+result = sorted(list(name_list1 & name_list2)) # 듣보잡 이름 리스트 생성
 
-for content in result:
+print(len(result)) # 듣보잡 이름의 수 출력
+
+for content in result: # 듣보잡 이름들 출력
     print(content)
